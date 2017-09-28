@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">My tesis cero</string>
+
+    <!---/////////////////////////////TEXTOS//////////////////////////////// -->
+    <string name="crea_palabra">Palabra</string>
+    <string name="crea_palabra_cat">Nombre de la categoria a crear</string>
+    <string name="titulo_dialog_mantenido">Seleccione una Opción</string>
+    <string name="titulo_dialog_eliminar">"¡Advertencia!"</string>
+    <string name="mensaje_eliminar">¿Esta seguro que quiere eliminar la categoria con sus elementos?</string>
+    <string name="sin_datos">¡¡¡Sin registros. Clic Aqui Para ingresar nuevos valores!!!</string>
+    <string name="ninguna_galeria">¡¡¡Ninguna Imagen Seleccionada!!!</string>
+    <string name="select_galeria">Ha seleccionado 1 Imagen</string>
+    <string name="texto_list_pal">¡¡¡Texto a reproducir!!!</string>
+    <string name="texto_list_cat">Lista de Categorias: </string>
+    <string name="texto_insta">Cargando Datos...  </string>
+    <string name="no_img">¡¡¡No ha seleccionado ninguna imagen!!!</string>
+    <string name="completa">Carga de datos completa</string>
+
+    <!---/////////////////////////////ACERCA//////////////////////////////// -->
+    <string name="acerca1">Jean Pierre Meza Cevallos</string>
+    <string name="acerca2">Juan Alberto Ayala Carrillo</string>
+    <string name="acerca3">jmeza3586@utm.edu.ec</string>
+    <string name="acerca4">jayala7915@utm.edu.ec</string>
+    <string name="acerca5">Universidad Tecnica de Manabí</string>
+    <string name="acerca7">Facultad de Ciencias Informáticas</string>
+    <string name="acerca8">Carrera de Ingenieria en Sistemas</string>
+    <string name="acerca9">"Evaluación de interfaces de un sistema de comunicación entre personas con discapacidad auditiva y sus pacientes."</string>
+
+
+    <!---/////////////////////////////BOTONES//////////////////////////////// -->
+    <string name="boton_imagen1">Seleccionar Imagen</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_actualizar">Actualizar</string>
+    <string name="boton_volver_lista">Volver al Listado</string>
+    <string name="cancelar_galeria">Cancelar</string>
+    <string name="galeria_galeria">Galeria</string>
+    <string name="aceptar_galeria">Aceptar</string>
+    <string name="omitir_insta">Omitir --></string>
+
+    <!---/////////////////////////////MENUS//////////////////////////////// -->
+    <string name="crea_frase">Frase a Pronunciar</string>
+    <string name="buscar">Buscar</string>
+    <string name="configurar">Configuraciónes</string>
+    <string name="agregar">Agregar Datos</string>
+    <string name="acerca">Acerca de la APP</string>
+
+    <!---/////////////////////////////MENSAJES EMERGENTES//////////////////////////////// -->
+    <string name="mensaje_galeria_fracaso">No tiene permisos para acceder a las imagenes</string>
+    <string name="guardado_exito">La palabra fue guardada con éxito</string>
+    <string name="no_guardado_vacio">Debe de ingresar palabra, frase e imagen</string>
+    <string name="no_guardado_vacio_cat">Debe de ingresar palabra e imagen</string>
+    <string name="no_guardado_error">Ocurrio un error mientras se guardaban los datos: </string>
+    <string name="actualizado_exito">La palabra fue actualizada con éxito</string>
+    <string name="eliminado_exito">La categoria y sus palabras fueron eliminadas con éxito</string>
+    <string name="no_eliminado_error">Ocurrio un error mientras se eliminaban los datos: </string>
+    <string name="error_audio">Debe seleccionar una palabra a reproducir</string>
+    <string name="si_existen">Si existen datos, accediendo... </string>
+    <string name="no_existen">No existen datos, se instalaran... </string>
+    <string name="busq1">Buscador activado </string>
+    <string name="busq2">Buscador desactivado </string>
+    <string name="busq3">texto buscado:  </string>
+    <string name="catesc">Escogió la categoria: </string>
+    <string name="dialog_edit">Editar Palabra</string>
+    <string name="dialog_elim">!Eliminar palabra!</string>
+    <string name="seguro">¿Esta seguro que desea salir de la aplicación?</string>
+
+    <!---/////////////////////////////titulos//////////////////////////////// -->
+    <string name="title1">Actualizar</string>
+    <string name="title2">Acerca</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="confirma">Confirmación</string>
+
+
+
+    <!---////////////////////LLENADO DE BASE DE DATOS////////////////// -->
+    <!---/////////////////////////////CATEGORIAS//////////////////////////////// -->
+    <string-array name="array_cat">
+        <item>Salúdos</item>
+        <item>Acciones</item>
+        <item>Exámenes</item>
+        <item>¿Preguntas?</item>
+        <item>Exudados</item>
+    </string-array>
+
+
+    <!---/////////////////////////////LLENADO CATEGORIA 1//////////////////////////////// -->
+
+    <string-array name="array_pal0">
+        <item>Hola</item>
+        <item>Buenos Días</item>
+        <item>Buenas Tardes</item>
+        <item>Por Favor</item>
+        <item>Gracias</item>
+    </string-array>
+
+    <string-array name="array_fra0">
+        <item>Hola, ¿Cómo está Usted?</item>
+        <item>Buenos Días</item>
+        <item>Buenas Tardes</item>
+        <item>Por Favor</item>
+        <item>Muchas Gracias</item>
+    </string-array>
+
+    <!---/////////////////////////////LLENADO CATEGORIA 2//////////////////////////////// -->
+    <string-array name="array_pal1">
+        <item>Extender Brazo</item>
+        <item>Puño</item>
+        <item>Sentarse</item>
+        <item>Abrir Boca</item>
+    </string-array>
+
+    <string-array name="array_fra1">
+        <item>Extienda el brazo por favor</item>
+        <item>Haga puño por favor</item>
+        <item>Siéntese  por favor</item>
+        <item>Abra la boca  por favor</item>
+    </string-array>
+    <!---/////////////////////////////LLENADO CATEGORIA 3//////////////////////////////// -->
+    <string-array name="array_pal2">
+        <item>Exámen de Sangre</item>
+        <item>Exámen de Orina</item>
+        <item>Exámen de Heces</item>
+        <item>Exámen de Esperma</item>
+    </string-array>
+
+    <string-array name="array_fra2">
+        <item>Le realizare un examen de sangre</item>
+        <item>Ayúdeme con la muestra para el examen de orina por favor</item>
+        <item>Ayúdeme con la muestra para el examen de heces por favor</item>
+        <item>Ayúdeme con la muestra para el examen de esperma por favor</item>
+    </string-array>
+
+    <!---/////////////////////////////LLENADO CATEGORIA 4//////////////////////////////// -->
+    <string-array name="array_pal3">
+        <item>¿Ayunar?</item>
+        <item>¿Nombres? </item>
+        <item>¿Años? </item>
+        <item>¿Embarazada? </item>
+        <item>¿Paciente?</item>
+    </string-array>
+
+    <string-array name="array_fra3">
+        <item>¿Se encuentra Usted en ayuna?</item>
+        <item>¿Cuál es su nombre? </item>
+        <item>¿Cuántos años tiene usted? </item>
+        <item>¿Se encuentra Usted embarazada ?</item>
+        <item>¿Es usted el Paciente?</item>
+    </string-array>
+
+
+    <!---/////////////////////////////LLENADO CATEGORIA 4//////////////////////////////// -->
+    <string-array name="array_pal4">
+        <item>Exudado de Saliva</item>
+        <item>Exudado de Lesión</item>
+        <item>Exudado Vaginal</item>
+        <item>Exudado Nasofaríngeo</item>
+    </string-array>
+
+    <string-array name="array_fra4">
+        <item>Le realizaremos un examen del exudado de su saliva</item>
+        <item>Le realizaremos un examen del exudado de su lesión</item>
+        <item>Le realizaremos un examen del exudado vaginal</item>
+        <item>Le realizaremos un examen del exudado Nasofaríngeo</item>
+    </string-array>
+</resources>

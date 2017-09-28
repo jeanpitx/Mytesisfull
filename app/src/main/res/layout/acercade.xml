@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/acerca10"
+        android:layout_width="190dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/autor1"
+        android:layout_alignTop="@+id/acerca9"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/acerca9"
+        android:layout_width="190dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/autor2"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/acerca12"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/acercaboton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/acerca6"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/acerca4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/utm"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/acerca3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/fci"
+        android:layout_alignTop="@+id/acerca4"
+        android:layout_toEndOf="@+id/acerca1"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/acerca2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/acerca3"
+        android:layout_centerHorizontal="true"
+        android:text="@string/acerca5"
+        android:textSize="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <TextView
+        android:id="@+id/acerca1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca7"
+        android:layout_below="@+id/acerca2"
+        android:layout_alignStart="@+id/acerca2" />
+    <TextView
+        android:id="@+id/acerca11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca8"
+        android:layout_below="@+id/acerca1"
+        android:layout_alignStart="@+id/acerca1" />
+    <TextView
+        android:id="@+id/acerca12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/acerca9"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/acerca11"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/acerca8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48"
+        android:gravity="center"
+        android:text="@string/acerca1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="12dp"
+        android:layout_above="@+id/acerca6"
+        android:layout_alignStart="@+id/acerca4" />
+
+    <TextView
+        android:id="@+id/acerca7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48"
+        android:gravity="center"
+        android:text="@string/acerca2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="12dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/acerca9"
+        android:layout_alignEnd="@+id/acerca3"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/acerca6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48"
+        android:gravity="center"
+        android:text="@string/acerca3"
+        android:textSize="10dp"
+        android:layout_alignBaseline="@+id/acerca5"
+        android:layout_alignBottom="@+id/acerca5"
+        android:layout_alignStart="@+id/acerca8"
+        android:layout_alignEnd="@+id/acerca8" />
+
+    <TextView
+        android:id="@+id/acerca5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48"
+        android:gravity="center"
+        android:text="@string/acerca4"
+        android:textSize="10dp"
+        android:layout_below="@+id/acerca7"
+        android:layout_alignEnd="@+id/acerca7"
+        android:layout_alignStart="@+id/acerca7" />
+
+</RelativeLayout>

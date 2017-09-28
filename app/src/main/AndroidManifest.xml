@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yojea.mytesiscero">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.ListPalabrasActivity"
+            android:label="Lista de Palabras"
+            android:parentActivityName=".Activities.ListCategoriaActivity" />
+        <activity
+            android:name=".Activities.ListPalabrasSearchActivity"
+            android:label="Lista de Categorias para buscar"
+            android:parentActivityName=".Activities.ListCategoriaActivity" />
+        <activity
+            android:name=".Activities.CreateWordActivity"
+            android:label="Edicion de Palabras"
+            android:parentActivityName=".Activities.ListPalabrasActivity" />
+        <activity
+            android:name=".Activities.ListCategoriaActivity"
+            android:label="Lista de Categorias" />
+        <activity
+            android:name=".Activities.CreateCatActivity"
+            android:label="Edicion de Categorias"
+            android:parentActivityName=".Activities.ListCategoriaActivity" />
+        <activity
+            android:name=".Activities.InstaladorActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Activities.GaleriaActivity"
+            android:label="Galeria de imagenes">
+        </activity>
+    </application>
+
+</manifest>

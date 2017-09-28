@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yojea.mytesiscero.Activities.CreateWordActivity">
+
+
+    <EditText
+        android:id="@+id/edtPalabraCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/crea_palabra_cat" />
+
+
+    <ImageView
+        android:id="@+id/imageViewCreateCat"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtPalabraCat"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@mipmap/ic_launcher_galeria" />
+
+    <Button
+        android:id="@+id/btnImagenCat"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_imagen1"
+        android:background="#265dc4"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="55dp"
+        android:layout_above="@+id/btnGuardarCat"
+        android:layout_toEndOf="@+id/imageViewCreateCat"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/btnGuardarCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewCreateCat"
+        android:layout_marginTop="33dp"
+        android:text="@string/boton_guardar"
+        android:background="#265dc4"
+        android:textColor="#ffffff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnVolverCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/boton_volver_lista"
+        android:layout_below="@+id/btnGuardarCat"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnActualizarCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewCreateCat"
+        android:layout_marginTop="33dp"
+        android:text="@string/boton_actualizar"
+        android:background="#265dc4"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"  />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtdescriptivo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/gridview"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_alignStart="@+id/gridview"
+        android:textSize="20dp"
+        android:text="@string/texto_list_cat" />
+
+    <TextView
+        android:id="@+id/txtsindatoscat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/sin_datos"
+        android:textColor="#FE2E2E"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:textSize="15dp"
+        android:layout_below="@+id/linearLayout"
+        />
+
+    <GridView
+        android:id="@+id/gridviewcat"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:columnWidth="120dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:visibility="visible"
+        android:scrollbars="vertical"
+        android:padding="6dp"
+
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="25dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_below="@+id/txtdescriptivo" />
+
+
+
+
+</RelativeLayout>

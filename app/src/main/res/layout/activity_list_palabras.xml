@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/txtsindatos"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/sin_datos"
+        android:textColor="#FE2E2E"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:textSize="15dp"
+        android:layout_below="@+id/linearLayout"
+        />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout">
+
+            <EditText
+                android:id="@+id/editHabla"
+                android:layout_width="190dp"
+                android:layout_height="57dp"
+                android:layout_weight="0.95"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:inputType="textPersonName"
+                android:text="@string/texto_list_pal" />
+
+        <ImageButton
+            android:id="@+id/btnHablar"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="120dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:visibility="visible"
+            android:scrollbars="vertical"
+            android:padding="6dp"
+
+            android:horizontalSpacing="5dp"
+            android:verticalSpacing="25dp"
+            android:layout_margin="1dp"
+
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

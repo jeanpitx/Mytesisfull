@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yojea.mytesiscero.Activities.GaleriaActivity">
+
+        <GridView
+            android:id="@+id/gridgaleria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:columnWidth="80dp"
+            android:gravity="center"
+            android:padding="2dp"
+
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth"
+
+            android:verticalSpacing="25dp"
+            android:visibility="visible"
+            android:layout_above="@+id/galeriaimgview" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/background_transp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:id="@+id/cancelimg"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorControlHighlight"
+            android:drawableTop="@android:drawable/ic_menu_close_clear_cancel"
+            android:textColor="@android:color/white"
+            android:text="@string/cancelar_galeria"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/galeimg"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:text="@string/galeria_galeria"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/cancelimg" />
+        <Button
+            android:id="@+id/acceptimg"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:drawableTop="@android:drawable/ic_menu_save"
+            android:textColor="@android:color/white"
+            android:text="@string/aceptar_galeria"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/galeimg" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/galeriaimgview"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+
+        app:srcCompat="@mipmap/ic_launcher_galeria"
+        android:layout_above="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/txtEstadoGal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:gravity="center"
+        android:text="@string/ninguna_galeria"
+        android:layout_alignTop="@+id/galeriaimgview"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/galeriaimgview" />
+
+</RelativeLayout>
